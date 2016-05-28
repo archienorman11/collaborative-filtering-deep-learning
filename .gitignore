@@ -1,3 +1,6 @@
+# virtualenv
+venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -60,3 +63,6 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# PyCharm project idea folder
+.idea/

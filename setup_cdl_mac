@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+VENV="venv"
+cd cdl
+sudo easy_install pip
+sudo pip install --upgrade virtualenv
+virtualenv --python=python2.7 --system-site-packages "$VENV"
+source "$VENV/bin/activate"
+
+pip install -r requirements.txt
+pip install --upgrade https://storage.googleapis.com/tensorflow/mac/tensorflow-0.7.1-cp27-none-any.whl
+
+cd ..
