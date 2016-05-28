@@ -1,7 +1,7 @@
 
-## Collaborative filtering project using Deep Learning
+## IRDM Group Assignment - Collaborative filtering project using Deep Learning
 
-This is a group project developed as part of the [COMPGI15 - Information Retrieval and Data Mining](http://www.cs.ucl.ac.uk/teaching_learning/syllabus/mscml/gi15_information_retrieval_data_mining/) module at University College London.
+This is a group assignment completed as part of the [COMPGI15 - Information Retrieval and Data Mining](http://www.cs.ucl.ac.uk/teaching_learning/syllabus/mscml/gi15_information_retrieval_data_mining/) module (MSc Web Science and Big Data Analytics) which I undertook at UCL.
 
 ---
 
