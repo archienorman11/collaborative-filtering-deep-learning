@@ -1,11 +1,11 @@
 
-## IRDM Group Assignment - Collaborative filtering project using Deep Learning
+#### IRDM Group Assignment - Collaborative filtering project using Deep Learning
 
 This is a group assignment completed as part of the [COMPGI15 - Information Retrieval and Data Mining](http://www.cs.ucl.ac.uk/teaching_learning/syllabus/mscml/gi15_information_retrieval_data_mining/) module (MSc Web Science and Big Data Analytics) which I undertook at UCL.
 
 ---
 
-### Group 10 Members
+##### Group 10 Members
 
 * [Santiago Gonzalez](https://github.com/santteegt) | hernan.toral.15@ucl.ac.uk | MSc WSBDA (Web Science and Big Data Analytics)
 * [Archie Norman](https://github.com/archienorman11) | archie.norman.15@ucl.ac.uk | MSc WSBDA (Web Science and Big Data Analytics)
@@ -13,7 +13,7 @@ This is a group assignment completed as part of the [COMPGI15 - Information Retr
 
 ---
 
-### Overview
+##### Overview
 
 1. [Report](https://github.com/santteegt/ucl-irdm-collaborative-filtering/raw/master/report/ucl_irdm_group_project_report.pdf) - downloads automatically
 2. [Dataset](#dataset)
@@ -26,7 +26,7 @@ This is a group assignment completed as part of the [COMPGI15 - Information Retr
 
 ---
 
-### Dataset
+##### Dataset
 
 This project makes use of the #nowplaying dataset which can be found [here](http://dbis-nowplaying.uibk.ac.at/). A subset of the #nowplaying dataset was extracted using Reservoir Sampling, because the original dataset was too large (13GB). More information on the sampling workflow can be found in the report, accompanying this assignment. The subset extracted is stored on GitHub at the following path:
 
@@ -42,7 +42,7 @@ data/nowplaying_subset.csv.tar.gz
 
 ---
 
-### System Requirements
+##### System Requirements
 
 ```
 Python 2.7.x - required by GraphLab Create
@@ -53,7 +53,7 @@ GraphLab-Create
 
 ---
 
-### Set-up
+##### Set-up
 
 Fork this repository and then clone it by running the following command and entering your GitHub username and password:
 
@@ -61,7 +61,7 @@ Fork this repository and then clone it by running the following command and ente
 git clone https://github.com/YOUR-USERNAME/ucl-irdm-collaborative-filtering
 ```
 
-#### Setting up GraphLab Create
+###### Setting up GraphLab Create
 
 GraphLab Create is a machine learning framework provided by Dato. In order to use GraphLab Create a license is required. Dato's Academic Programme offers a 1-year free license of GraphLab Create. In order to obtain a license, click [here](https://dato.com/download/academic.html) and register using a @ucl.ac.uk or @cs.ucl.ac.uk account.
 
@@ -95,7 +95,7 @@ $ deactivate
 
 ---
 
-### Running Analysis
+##### Running Analysis
 
 To run the Analysis, you need to run the `analysis.py` file by following the steps below:
 
@@ -198,7 +198,7 @@ dato/analysis/output/filtered_user_count_3_2016_04_06.csv
 
 ---
 
-### Running Basic Recommenders
+##### Running Basic Recommenders
 
 Basic Recommenders available:
 
@@ -270,7 +270,7 @@ dato/basic_rm/output/pop_evaluation.csv
 
 ---
 
-### Running Collaborative Deep Learning Model
+##### Running Collaborative Deep Learning Model
 
 1. Execute the scripts `setup_cdl_linux` or the `setup_cdl_mac` depending on the OS you are using.
 2. Execute the following commands in a command shell under the home directory of this code repository:
